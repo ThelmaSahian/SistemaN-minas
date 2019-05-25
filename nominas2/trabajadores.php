@@ -3,9 +3,9 @@
 ?>
 <title>Trabajadores</title>
 <main class="main">
-            <div class="container2">
-            <h1>Alta Trabajador</h1>
-        <p>Datos personales</p>
+        <div class="container2">
+        <h1>Alta Trabajador</h1>
+        <p>Datos generales</p>
         
         <hr>
         <table>
@@ -23,7 +23,7 @@
         </tr>
         <tr>
                 <td><label><b>Fecha de Nacimiento</b></label></td>
-                <td><input type="date" name="fecha" value="2000-01-01" required/></td>
+                <td><input type="date" name="fecha" value="2000-01-01"  required/></td>
         </tr>
         <tr>
                 <td><label><b>Lugar de Nacimiento</b></label></td>
@@ -80,7 +80,7 @@
         </table>
         <hr>
         <div class="botones">
-                <button type="submit" class="btn">Siguiente</button>
+                <button type="button" onclick="location.href='aSalario.php'" class="btn" >Siguiente</button>
                 <button type="button" onclick="location.href='index.php'" class="btn">Cancelar</button>
         </div>
             </div>
